@@ -1,3 +1,7 @@
+function removecookie(x){
+    document.querySelector(x).remove()
+}
+
 function changevaleur(selector) {
     const tempElements = document.querySelectorAll(selector);
     const selectedUnit = document.querySelector("select[name='snack']").value;   
